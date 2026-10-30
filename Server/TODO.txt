@@ -1,0 +1,51 @@
+Inspiration (for writing in project file): 
+https://codedesign.dev/challenge/nowted
+
+# Nowted
+https://github.com/saefulbarkah/nowted-app
+
+
+TODO
+2) create useContext for sharing details (like guiboard single handed)
+- create copy of orignal details. if details and orignal details not match mark small red dot on right side of folder and file
+-> create username, email unique, in login form can accept any one (by name user)
+
+
+FUTURE SCOPES
+0) Add forgot password functionality (send email to user)
+1) create a new folder and file in the same folder
+2) access sharing notes from other users (read-only-mode)
+3) copy notes on one click and move it in my specific folder
+4) list of shared notes by you like trash
+5) list of subscribed notes by others like (read-only-mode)
+
+
+
+Some Ai generated scopes
+1) Add search functionality (search by title, content, label, date, time, etc)
+2) Add pagination functionality (load more notes on scroll)
+3) Add sorting functionality (sort by title, content, label, date, time, etc)
+4) Add filter functionality (filter by title, content, label, date, time, etc)
+5) Add sharing functionality (share notes with others)
+6) Add subscription functionality (subscribe to notes of others)
+7) Add notification functionality (notify user on various events)
+8) Add user profile functionality (user profile page)
+9) Add user settings functionality (user settings page)
+10) Add user activity functionality (user activity page)
+11) Add user history functionality (user history page)
+12) Add user notes functionality (user notes page)
+13) Add user trash functionality (user trash page)
+14) Add user archive functionality (user archive page)
+15) Add user spam functionality (user spam page)
+16) Add user draft functionality (user draft page)
+17) Add user label functionality (user label page)
+
+
+
+--------------------------------
+0) move note from one folder to another folder
+edditor
+1) add highliter
+2) add font size
+3) add code block
+

@@ -1,0 +1,44 @@
+Before anything, authentication occure
+Athentication:
+first find user key value in browser localstorage.
+    if Found: 
+        store in user value in variable;
+        then request sent to server with cookie 'access-token' (no matter have or not)
+        if access-token is valid:
+            server will send valid user_id
+            then- our client_side store value in same variable, again
+        else:
+            then- our client_side store null value in same variable
+            and set localstorage user key value as null
+
+    else:
+	our client_side store null value in user variable
+        create localstorage with user key and null value
+
+
+Then user can see there data if access-token is valid otherwise user can login for getting velid access-token
+
+If user want to login then user can login by clicking login button
+    first user will enter email and password
+    then request sent to server with email and password
+    if email and password is valid:
+        server will send valid cookie 'access-token' and some details of user
+        then- our client_side store value in same variable
+        and set localstorage user key value as value
+
+        then our authentication will occure again
+    else:
+        then- our client_side store null value in same variable
+        and set localstorage user key value as null
+    
+If user want to logout then user can logout by clicking logout button
+    no matter user have valid access-token or not
+    request sent to server with cookie 'access-token'
+    server will send response to clear cookie 'access-token'
+    then- our client_side store null value in same variable
+    and set localstorage user key value as null
+
+
+package.json
+"proxy": "http://localhost:9000",
+
